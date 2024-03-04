@@ -1,9 +1,11 @@
-x = input('Digite algo: ')
-print('O tipo primitivo desse valor é {}'.format(type(x)))
-print('Só tem espaço? {}'.format(x.isspace()))
-print('É um número? {}'.format(x.isnumeric()))
-print('É alfabético? {}'.format(x.isalpha()))
-print('É alfanumérico? {}'.format(x.isalnum()))
-print('Está maiúsculo? {}'.format(x.isupper()))
-print('Está minúsculo? {}'.format(x.islower()))
-print('Está captalizada? {}'.format(x.istitle()))
+n1 = int(input('Um valor: '))
+n2 = int(input('Outro valor: '))
+a = n1 + n2
+s = n1 - n2
+m = n1 * n2
+d = n1 / n2
+di = n1 // n2
+e = n1 ** n2
+
+print(f'A some é {a}, \no produto é {m} e a \ndivisão é {d:.3f}.', end=' ')
+print(f'\nDivisão intera {di} \ne potência {e}.')
