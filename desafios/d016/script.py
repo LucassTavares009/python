@@ -1,5 +1,5 @@
 print('====== DESAFIO 16 ======')
-from math import floor
+from math import trunc
 
 num = float(input('Digite um número: '))
-print(f'O número {num} tem a parte Inteira {floor(num)}.')
+print(f'O número {num} tem sua porção inteira {trunc(num)}.')
